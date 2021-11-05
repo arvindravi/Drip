@@ -11,6 +11,10 @@ import DripKit
 struct OutfitsListView: View {
     @State var outfits: [Outfit] = []
     
+    enum Error: Swift.Error {
+        case errorFetchingOutfits(String)
+    }
+    
     var body: some View {
         Group {
             List(outfits) { outfit in
@@ -23,15 +27,15 @@ struct OutfitsListView: View {
                 }.listRowSeparator(.hidden)
                     .buttonStyle(PlainButtonStyle())
             }.listStyle(GroupedListStyle())
-        }.task { await outfits() }
+        }.task { try? await outfits() }
     }
     
-    func outfits() async {
+    func outfits() async throws {
         do {
             let response = try await DripKit.shared.fetchWinterOutfits(1)
             self.outfits = response.outfits.map(Outfit.init(rawResponse:))
         } catch(let error) {
-            print(error.localizedDescription)
+            throw Error.errorFetchingOutfits(error.localizedDescription)
         }
     }
 }
