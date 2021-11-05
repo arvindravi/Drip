@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A429D4E72735744100ABFC29 /* DripKit in Frameworks */ = {isa = PBXBuildFile; productRef = A429D4E62735744100ABFC29 /* DripKit */; };
+		A429D4EC2735768500ABFC29 /* DripKit in Frameworks */ = {isa = PBXBuildFile; productRef = A429D4EB2735768500ABFC29 /* DripKit */; };
 		A47CA32E2735282500F34F68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CA32D2735282500F34F68 /* HomeView.swift */; };
 		A4B28BA12735484E0059D81E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28BA02735484E0059D81E /* CardView.swift */; };
 		A4B28BA32735504B0059D81E /* OutfitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28BA22735504B0059D81E /* OutfitDetailView.swift */; };
@@ -39,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A429D4E72735744100ABFC29 /* DripKit in Frameworks */,
+				A429D4EC2735768500ABFC29 /* DripKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +128,7 @@
 			);
 			name = Drip;
 			packageProductDependencies = (
-				A429D4E62735744100ABFC29 /* DripKit */,
+				A429D4EB2735768500ABFC29 /* DripKit */,
 			);
 			productName = Drip;
 			productReference = A4CD3C8427351D23004A6886 /* Drip.app */;
@@ -159,7 +159,7 @@
 			);
 			mainGroup = A4CD3C7B27351D23004A6886;
 			packageReferences = (
-				A429D4E52735744100ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */,
+				A429D4EA2735768500ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */,
 			);
 			productRefGroup = A4CD3C8527351D23004A6886 /* Products */;
 			projectDirPath = "";
@@ -401,7 +401,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A429D4E52735744100ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */ = {
+		A429D4EA2735768500ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/arvindravi/DripKit";
 			requirement = {
@@ -412,9 +412,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A429D4E62735744100ABFC29 /* DripKit */ = {
+		A429D4EB2735768500ABFC29 /* DripKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A429D4E52735744100ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */;
+			package = A429D4EA2735768500ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */;
 			productName = DripKit;
 		};
 /* End XCSwiftPackageProductDependency section */
