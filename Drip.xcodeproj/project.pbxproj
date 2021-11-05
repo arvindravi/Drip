@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A47CA32E2735282500F34F68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CA32D2735282500F34F68 /* HomeView.swift */; };
 		A4CD3C8827351D23004A6886 /* DripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3C8727351D23004A6886 /* DripApp.swift */; };
-		A4CD3C8A27351D23004A6886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3C8927351D23004A6886 /* ContentView.swift */; };
 		A4CD3C8C27351D29004A6886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CD3C8B27351D29004A6886 /* Assets.xcassets */; };
 		A4CD3C8F27351D29004A6886 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CD3C8E27351D29004A6886 /* Preview Assets.xcassets */; };
 		A4CD3C9927351D2A004A6886 /* DripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3C9827351D2A004A6886 /* DripTests.swift */; };
 		A4CD3CA327351D2A004A6886 /* DripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3CA227351D2A004A6886 /* DripUITests.swift */; };
+		A4CD3CB027351E4D004A6886 /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3CAF27351E4D004A6886 /* Outfit.swift */; };
+		A4CD3CB627352008004A6886 /* DripKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4CD3CB527352008004A6886 /* DripKit */; };
+		A4CD3CB8273523E2004A6886 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3CB7273523E2004A6886 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A47CA32D2735282500F34F68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A4CD3C8427351D23004A6886 /* Drip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD3C8727351D23004A6886 /* DripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripApp.swift; sourceTree = "<group>"; };
-		A4CD3C8927351D23004A6886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4CD3C8B27351D29004A6886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4CD3C8E27351D29004A6886 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4CD3C9427351D2A004A6886 /* DripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD3C9827351D2A004A6886 /* DripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripTests.swift; sourceTree = "<group>"; };
 		A4CD3C9E27351D2A004A6886 /* DripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD3CA227351D2A004A6886 /* DripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripUITests.swift; sourceTree = "<group>"; };
+		A4CD3CAF27351E4D004A6886 /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		A4CD3CB7273523E2004A6886 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4CD3CB627352008004A6886 /* DripKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +98,9 @@
 		A4CD3C8627351D23004A6886 /* Drip */ = {
 			isa = PBXGroup;
 			children = (
+				A4CD3CB127351E58004A6886 /* Models */,
 				A4CD3C8727351D23004A6886 /* DripApp.swift */,
-				A4CD3C8927351D23004A6886 /* ContentView.swift */,
+				A47CA32D2735282500F34F68 /* HomeView.swift */,
 				A4CD3C8B27351D29004A6886 /* Assets.xcassets */,
 				A4CD3C8D27351D29004A6886 /* Preview Content */,
 			);
@@ -124,6 +131,15 @@
 			path = DripUITests;
 			sourceTree = "<group>";
 		};
+		A4CD3CB127351E58004A6886 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A4CD3CB7273523E2004A6886 /* User.swift */,
+				A4CD3CAF27351E4D004A6886 /* Outfit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +156,9 @@
 			dependencies = (
 			);
 			name = Drip;
+			packageProductDependencies = (
+				A4CD3CB527352008004A6886 /* DripKit */,
+			);
 			productName = Drip;
 			productReference = A4CD3C8427351D23004A6886 /* Drip.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +231,9 @@
 				Base,
 			);
 			mainGroup = A4CD3C7B27351D23004A6886;
+			packageReferences = (
+				A4CD3CB427352008004A6886 /* XCRemoteSwiftPackageReference "DripKit" */,
+			);
 			productRefGroup = A4CD3C8527351D23004A6886 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CD3C8A27351D23004A6886 /* ContentView.swift in Sources */,
+				A4CD3CB8273523E2004A6886 /* User.swift in Sources */,
 				A4CD3C8827351D23004A6886 /* DripApp.swift in Sources */,
+				A47CA32E2735282500F34F68 /* HomeView.swift in Sources */,
+				A4CD3CB027351E4D004A6886 /* Outfit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,7 +447,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +477,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,7 +500,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5LKMWCFWZW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,7 +525,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5LKMWCFWZW;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -603,6 +627,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4CD3CB427352008004A6886 /* XCRemoteSwiftPackageReference "DripKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/arvind/Lab/techtasks/Thread/DripKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4CD3CB527352008004A6886 /* DripKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4CD3CB427352008004A6886 /* XCRemoteSwiftPackageReference "DripKit" */;
+			productName = DripKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A4CD3C7C27351D23004A6886 /* Project object */;
 }

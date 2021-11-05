@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DripKit",
+        "repositoryURL": "/Users/arvind/Lab/techtasks/Thread/DripKit",
+        "state": {
+          "branch": "main",
+          "revision": "8c29791d8efeaca25eee364f56bb8361295e6916",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
