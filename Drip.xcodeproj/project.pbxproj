@@ -7,50 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A429D4E72735744100ABFC29 /* DripKit in Frameworks */ = {isa = PBXBuildFile; productRef = A429D4E62735744100ABFC29 /* DripKit */; };
 		A47CA32E2735282500F34F68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CA32D2735282500F34F68 /* HomeView.swift */; };
 		A4B28BA12735484E0059D81E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28BA02735484E0059D81E /* CardView.swift */; };
 		A4B28BA32735504B0059D81E /* OutfitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28BA22735504B0059D81E /* OutfitDetailView.swift */; };
 		A4B28BA5273554640059D81E /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28BA4273554640059D81E /* AsyncImageView.swift */; };
+		A4B28BA9273567970059D81E /* ValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B28BA8273567970059D81E /* ValueCell.swift */; };
 		A4CD3C8827351D23004A6886 /* DripApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3C8727351D23004A6886 /* DripApp.swift */; };
 		A4CD3C8C27351D29004A6886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CD3C8B27351D29004A6886 /* Assets.xcassets */; };
 		A4CD3C8F27351D29004A6886 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4CD3C8E27351D29004A6886 /* Preview Assets.xcassets */; };
-		A4CD3C9927351D2A004A6886 /* DripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3C9827351D2A004A6886 /* DripTests.swift */; };
-		A4CD3CA327351D2A004A6886 /* DripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3CA227351D2A004A6886 /* DripUITests.swift */; };
 		A4CD3CB027351E4D004A6886 /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3CAF27351E4D004A6886 /* Outfit.swift */; };
-		A4CD3CB627352008004A6886 /* DripKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4CD3CB527352008004A6886 /* DripKit */; };
 		A4CD3CB8273523E2004A6886 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD3CB7273523E2004A6886 /* User.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A4CD3C9527351D2A004A6886 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4CD3C7C27351D23004A6886 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4CD3C8327351D23004A6886;
-			remoteInfo = Drip;
-		};
-		A4CD3C9F27351D2A004A6886 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A4CD3C7C27351D23004A6886 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A4CD3C8327351D23004A6886;
-			remoteInfo = Drip;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A47CA32D2735282500F34F68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A4B28BA02735484E0059D81E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A4B28BA22735504B0059D81E /* OutfitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitDetailView.swift; sourceTree = "<group>"; };
 		A4B28BA4273554640059D81E /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		A4B28BA8273567970059D81E /* ValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueCell.swift; sourceTree = "<group>"; };
 		A4CD3C8427351D23004A6886 /* Drip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CD3C8727351D23004A6886 /* DripApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripApp.swift; sourceTree = "<group>"; };
 		A4CD3C8B27351D29004A6886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4CD3C8E27351D29004A6886 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A4CD3C9427351D2A004A6886 /* DripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4CD3C9827351D2A004A6886 /* DripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripTests.swift; sourceTree = "<group>"; };
-		A4CD3C9E27351D2A004A6886 /* DripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4CD3CA227351D2A004A6886 /* DripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DripUITests.swift; sourceTree = "<group>"; };
 		A4CD3CAF27351E4D004A6886 /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
 		A4CD3CB7273523E2004A6886 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,21 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CD3CB627352008004A6886 /* DripKit in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CD3C9127351D2A004A6886 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CD3C9B27351D2A004A6886 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A429D4E72735744100ABFC29 /* DripKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +51,7 @@
 			children = (
 				A4B28BA4273554640059D81E /* AsyncImageView.swift */,
 				A4B28BA02735484E0059D81E /* CardView.swift */,
+				A4B28BA8273567970059D81E /* ValueCell.swift */,
 			);
 			path = "Reusable Views";
 			sourceTree = "<group>";
@@ -103,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				A4CD3C8627351D23004A6886 /* Drip */,
-				A4CD3C9727351D2A004A6886 /* DripTests */,
-				A4CD3CA127351D2A004A6886 /* DripUITests */,
 				A4CD3C8527351D23004A6886 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				A4CD3C8427351D23004A6886 /* Drip.app */,
-				A4CD3C9427351D2A004A6886 /* DripTests.xctest */,
-				A4CD3C9E27351D2A004A6886 /* DripUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -138,22 +100,6 @@
 				A4CD3C8E27351D29004A6886 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A4CD3C9727351D2A004A6886 /* DripTests */ = {
-			isa = PBXGroup;
-			children = (
-				A4CD3C9827351D2A004A6886 /* DripTests.swift */,
-			);
-			path = DripTests;
-			sourceTree = "<group>";
-		};
-		A4CD3CA127351D2A004A6886 /* DripUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A4CD3CA227351D2A004A6886 /* DripUITests.swift */,
-			);
-			path = DripUITests;
 			sourceTree = "<group>";
 		};
 		A4CD3CB127351E58004A6886 /* Models */ = {
@@ -182,47 +128,11 @@
 			);
 			name = Drip;
 			packageProductDependencies = (
-				A4CD3CB527352008004A6886 /* DripKit */,
+				A429D4E62735744100ABFC29 /* DripKit */,
 			);
 			productName = Drip;
 			productReference = A4CD3C8427351D23004A6886 /* Drip.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A4CD3C9327351D2A004A6886 /* DripTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4CD3CA927351D2A004A6886 /* Build configuration list for PBXNativeTarget "DripTests" */;
-			buildPhases = (
-				A4CD3C9027351D2A004A6886 /* Sources */,
-				A4CD3C9127351D2A004A6886 /* Frameworks */,
-				A4CD3C9227351D2A004A6886 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4CD3C9627351D2A004A6886 /* PBXTargetDependency */,
-			);
-			name = DripTests;
-			productName = DripTests;
-			productReference = A4CD3C9427351D2A004A6886 /* DripTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A4CD3C9D27351D2A004A6886 /* DripUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4CD3CAC27351D2A004A6886 /* Build configuration list for PBXNativeTarget "DripUITests" */;
-			buildPhases = (
-				A4CD3C9A27351D2A004A6886 /* Sources */,
-				A4CD3C9B27351D2A004A6886 /* Frameworks */,
-				A4CD3C9C27351D2A004A6886 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A4CD3CA027351D2A004A6886 /* PBXTargetDependency */,
-			);
-			name = DripUITests;
-			productName = DripUITests;
-			productReference = A4CD3C9E27351D2A004A6886 /* DripUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -237,14 +147,6 @@
 					A4CD3C8327351D23004A6886 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					A4CD3C9327351D2A004A6886 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = A4CD3C8327351D23004A6886;
-					};
-					A4CD3C9D27351D2A004A6886 = {
-						CreatedOnToolsVersion = 13.0;
-						TestTargetID = A4CD3C8327351D23004A6886;
-					};
 				};
 			};
 			buildConfigurationList = A4CD3C7F27351D23004A6886 /* Build configuration list for PBXProject "Drip" */;
@@ -257,15 +159,13 @@
 			);
 			mainGroup = A4CD3C7B27351D23004A6886;
 			packageReferences = (
-				A4CD3CB427352008004A6886 /* XCRemoteSwiftPackageReference "DripKit" */,
+				A429D4E52735744100ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */,
 			);
 			productRefGroup = A4CD3C8527351D23004A6886 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A4CD3C8327351D23004A6886 /* Drip */,
-				A4CD3C9327351D2A004A6886 /* DripTests */,
-				A4CD3C9D27351D2A004A6886 /* DripUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -277,20 +177,6 @@
 			files = (
 				A4CD3C8F27351D29004A6886 /* Preview Assets.xcassets in Resources */,
 				A4CD3C8C27351D29004A6886 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CD3C9227351D2A004A6886 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CD3C9C27351D2A004A6886 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,39 +194,11 @@
 				A4B28BA32735504B0059D81E /* OutfitDetailView.swift in Sources */,
 				A4B28BA12735484E0059D81E /* CardView.swift in Sources */,
 				A4B28BA5273554640059D81E /* AsyncImageView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CD3C9027351D2A004A6886 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4CD3C9927351D2A004A6886 /* DripTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A4CD3C9A27351D2A004A6886 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A4CD3CA327351D2A004A6886 /* DripUITests.swift in Sources */,
+				A4B28BA9273567970059D81E /* ValueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A4CD3C9627351D2A004A6886 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4CD3C8327351D23004A6886 /* Drip */;
-			targetProxy = A4CD3C9527351D2A004A6886 /* PBXContainerItemProxy */;
-		};
-		A4CD3CA027351D2A004A6886 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A4CD3C8327351D23004A6886 /* Drip */;
-			targetProxy = A4CD3C9F27351D2A004A6886 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A4CD3CA427351D2A004A6886 /* Debug */ = {
@@ -519,102 +377,6 @@
 			};
 			name = Release;
 		};
-		A4CD3CAA27351D2A004A6886 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5LKMWCFWZW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arvindravi.DripTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drip.app/Drip";
-			};
-			name = Debug;
-		};
-		A4CD3CAB27351D2A004A6886 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5LKMWCFWZW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arvindravi.DripTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drip.app/Drip";
-			};
-			name = Release;
-		};
-		A4CD3CAD27351D2A004A6886 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5LKMWCFWZW;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arvindravi.DripUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Drip;
-			};
-			name = Debug;
-		};
-		A4CD3CAE27351D2A004A6886 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5LKMWCFWZW;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.arvindravi.DripUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Drip;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -636,30 +398,12 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4CD3CA927351D2A004A6886 /* Build configuration list for PBXNativeTarget "DripTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4CD3CAA27351D2A004A6886 /* Debug */,
-				A4CD3CAB27351D2A004A6886 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A4CD3CAC27351D2A004A6886 /* Build configuration list for PBXNativeTarget "DripUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A4CD3CAD27351D2A004A6886 /* Debug */,
-				A4CD3CAE27351D2A004A6886 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		A4CD3CB427352008004A6886 /* XCRemoteSwiftPackageReference "DripKit" */ = {
+		A429D4E52735744100ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/arvind/Lab/techtasks/Thread/DripKit";
+			repositoryURL = "https://github.com/arvindravi/DripKit";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -668,9 +412,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A4CD3CB527352008004A6886 /* DripKit */ = {
+		A429D4E62735744100ABFC29 /* DripKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = A4CD3CB427352008004A6886 /* XCRemoteSwiftPackageReference "DripKit" */;
+			package = A429D4E52735744100ABFC29 /* XCRemoteSwiftPackageReference "DripKit" */;
 			productName = DripKit;
 		};
 /* End XCSwiftPackageProductDependency section */

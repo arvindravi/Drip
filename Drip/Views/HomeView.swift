@@ -9,7 +9,8 @@ import SwiftUI
 import DripKit
 
 struct OutfitsListView: View {
-    @State var outfits: [Outfit] = []
+    @State
+    var outfits: [Outfit] = []
     
     enum Error: Swift.Error {
         case errorFetchingOutfits(String)

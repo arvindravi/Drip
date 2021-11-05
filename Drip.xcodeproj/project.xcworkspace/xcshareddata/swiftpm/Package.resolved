@@ -3,10 +3,10 @@
     "pins": [
       {
         "package": "DripKit",
-        "repositoryURL": "/Users/arvind/Lab/techtasks/Thread/DripKit",
+        "repositoryURL": "https://github.com/arvindravi/DripKit",
         "state": {
           "branch": "main",
-          "revision": "8c29791d8efeaca25eee364f56bb8361295e6916",
+          "revision": "e812aac1c0561f97aef5aaae139eda50369a0574",
           "version": null
         }
       }
